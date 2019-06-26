@@ -31,7 +31,8 @@ public class MabatisConfig {
     private ApplicationContext applicationContext;
 
     /**
-     * 加载 mybatis 的配置
+     * 加载 mybatis 的配置，
+     * 解决驼峰命令自动转换配置不生效的问题
      * @return
      */
     @Bean
